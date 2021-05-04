@@ -1,12 +1,17 @@
 import React from 'react';
-import Navbar from './components/Navigation/Navbar'
-import './components/Fonts/css/Quicksand.css'
-
+import Home from "./components/Page/Home/Home"
+import Contact from "./components/Page/Contact/Contact"
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <Router>
+    <Route>
+     <Switch>
+       <Route exact path="/" render={() => <Home/>}/>
+       <Route exact path="/contacts" render={() => <Contact/>}/>
+     </Switch>
+     </Route>
+     </Router>
   );
 }
 
