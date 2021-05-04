@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navigation/Navbar'
-import './components/Fonts/css/font.css'
+import './components/Fonts/css/Quicksand.css'
 
 function App() {
   return (
