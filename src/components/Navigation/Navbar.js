@@ -1,10 +1,11 @@
 import React from 'react'
+import Navigation from '../Navigation/Navigation'
 
 function Navbar() {
     return (
-        <div>
-            Hello
-        </div>
+        <>
+        <Navigation />
+        </>
     )
 }
 
