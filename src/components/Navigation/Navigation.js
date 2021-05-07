@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavContainer, NavBrandContainer, NavBrandLogo, NavMenuContainer, NavMenu, NavMenuItems } from '../Styled-Components/Navigation'
-import {Link} from "react-router-dom"
 
 function Navigation() {
     return (
@@ -8,8 +7,7 @@ function Navigation() {
            <NavContainer>
                 {/* Navbar Brand Logo and Container */}
                 <NavBrandContainer>
-                   <NavBrandLogo src="" alt=""/>
-                   JED DYLAN
+                   <NavBrandLogo src="../assets/Dylan.png" alt="Brand-Logo"/>
                 </NavBrandContainer>
 
                 {/* Navbar Menu Items and Container */}
